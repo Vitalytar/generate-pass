@@ -1,0 +1,30 @@
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: max-content;
+    margin: 0 auto;
+    gap: 15px;
+}
+
+.form-row:first-child label {
+    font-weight: 800;
+}
+
+.form-row:first-child input {
+    min-width: 100px;
+}
+
+button {
+    background-color: #000;
+    color: #fff;
+    border-radius: 8px;
+    box-shadow: none;
+}
+
+#passwordResult {
+    text-align: center;
+}
